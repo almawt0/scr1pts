@@ -7,7 +7,7 @@ if getgenv().library then
 	getgenv().library:Unload()
 end
 
-local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {["Menu Accent Color"] = Color3.fromRGB(0,139,255)}, title = "uwuware", open = false, mousestate = inputService.MouseIconEnabled, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "uw_configs", fileext = ".uw"}
+local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {["Menu Accent Color"] = Color3.fromRGB(0,139,255)}, title = "pakiware", open = false, mousestate = inputService.MouseIconEnabled, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "uw_configs", fileext = ".uw"}
 getgenv().library = library
 --Locals
 local dragging, dragInput, dragStart, startPos, dragObject
